@@ -1,0 +1,68 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/pref_key">
+
+    <PreferenceCategory
+        app:title="@string/pref_profile"
+        app:icon="@drawable/ic_profile">
+        <EditTextPreference
+            app:key="@string/pref_profile_name_key"
+            app:title="@string/pref_profile_name"
+            app:defaultValue=""
+            app:summary="@string/not_set"
+            app:useSimpleSummaryProvider="true"/>
+        <ListPreference
+            app:key="@string/pref_profile_gender_key"
+            app:title="@string/pref_profile_gender"
+            app:defaultValue=""
+            app:summary="@string/not_set"
+            app:entries="@array/gender_entries"
+            app:entryValues="@array/gender_values"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            app:key="@string/pref_profile_weight_key"
+            app:title="@string/pref_profile_weight_title"
+            app:summary="@string/not_set"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            app:key="@string/pref_profile_high_key"
+            app:title="@string/pref_profile_high_title"
+            app:summary="@string/not_set"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/pref_goals_title"
+        app:icon="@drawable/ic_goals">
+        <ListPreference
+            app:key="@string/pref_goals_steps_key"
+            app:title="@string/pref_goals_steps_title"
+            app:defaultValue=""
+            app:summary="@string/not_set"
+            app:entries="@array/goals_measure_entries"
+            app:entryValues="@array/goals_measure_values"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/pref_maps"
+        app:icon="@drawable/ic_maps">
+        <SwitchPreferenceCompat
+            app:key="@string/pref_maps_active_key"
+            app:title="@string/pref_maps_active_title"
+            app:summaryOn="@string/pref_maps_active_summaryOn"
+            app:summaryOff="@string/pref_maps_active_summaryOff"
+            app:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/pref_other">
+        <PreferenceScreen
+            android:title="@string/pref_other_title">
+            <intent android:action="android.settings.SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

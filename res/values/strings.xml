@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">FitManager Plus</string>
+
+    <!-- Navigation Bar Titles -->
+    <string name="menu_item_home">Home</string>
+    <string name="menu_item_music">Musica</string>
+    <string name="menu_item_pianification">Planning</string>
+    <string name="menu_item_settings">Opzioni</string>
+    <string name="floating_button_description">Bottone di avvio dell\'allenamento</string>
+
+    <!-- Preferences -->
+    <string name="pref_key">preference_file_key</string>
+    <string name="not_set">Non impostato</string>
+    <string name="pref_profile">Profilo</string>
+    <string name="pref_profile_name">Nome Profilo</string>
+    <string name="pref_profile_name_key">profile_name</string>
+    <string name="pref_profile_gender">Genere</string>
+    <string name="pref_profile_gender_key">gender</string>
+    <string name="pref_profile_weight_key">weight</string>
+    <string name="pref_profile_weight_title">Peso (kg)</string>
+    <string name="pref_profile_high_key">high</string>
+    <string name="pref_profile_high_title">Altezza (cm)</string>
+    <string name="pref_maps_active_key">maps_active</string>
+    <string name="pref_maps">Maps</string>
+    <string name="pref_maps_active_title">Avvio automatico di Google Maps</string>
+    <string name="pref_maps_active_summaryOn">Durante l\'allenamento Google Maps é attivo</string>
+    <string name="pref_maps_active_summaryOff">Durante l\'allenamento Google Maps non é attivo</string>
+    <string name="pref_goals_title">Obiettivi</string>
+    <string name="pref_goals_steps_key">goals_steps</string>
+    <string name="pref_goals_steps_title">Passi per allenamento</string>
+    <string name="pref_other">Altro</string>
+    <string name="pref_other_title">Avanzate</string>
+
+
+    <string name="music_button_addMusic_description">Bottone per aggiungere musica sulla playlist</string>
+
+    <string name="song_hint_text">Aggiungi un nuovo brano</string>
+
+    <string name="remove_song_menu">Rimuovi</string>
+
+    <string name="start_walk_text">Camminata</string>
+    <string name="start_run_text">Corsa</string>
+    <string name="start_bike_text">Ciclismo</string>
+    <string name="start_soccer_text">Calcio</string>
+    <string name="start_basket_text">Basket</string>
+    <string name="start_volley_text">Pallavolo</string>
+    <string name="start_swim_text">Nuoto</string>
+    <string name="start_martialarts_text">Arti Marziali</string>
+    <string name="start_tennis_text">Tennis</string>
+    <string name="start_button_text">START</string>
+    <string name="plan_addWorkout_text">Aggiungi allenamento</string>
+    <string name="music_addSong_text">Aggiungi canzone</string>
+    <string name="home_title_profile">Il tuo Profilo</string>
+    <string name="home_month_title">Resoconto del mese</string>
+    <string name="home_profile_title">Il tuo Profilo</string>
+    <string name="home_month_totalSteps">Passi totali</string>
+    <string name="home_month_avgSteps">Media passi</string>
+    <string name="home_month_totKcal">Kcal perse</string>
+    <string name="home_month_avgTime">Tempo medio</string>
+    <string name="home_month_avgSpeed">Velocitá media</string>
+    <string name="gmaps_stop_text">STOP</string>
+    <string name="create_plan_editText_hint">Descrizione allenamento</string>
+
+    <string name="notification_channel_id">PLANNING_CHANNEL</string>
+    <string name="fragment_home_weight">Peso</string>
+    <string name="fragment_home_bmi">BMI</string>
+    <string name="fragment_home_goal">Obiettivo Passi</string>
+
+
+</resources>
